@@ -1,0 +1,599 @@
+body{
+  background-color: #00224D;
+  font-family: sans-serif;
+}
+
+*{
+  margin: 0%;
+  box-sizing: content-box;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #00224D;
+  margin-bottom: 25px;
+}
+
+ul{
+  list-style: none;
+  margin-right: 10px;
+}
+
+li{
+  display: inline-block;
+  margin-right: 15px;
+  font-size: larger;
+  font-weight: 500;
+  color: aqua;
+}
+
+
+.logo{
+  margin-left: 25px;
+  font-family: "Pacifico", cursive;
+font-weight: 400;
+font-style: normal;
+color: aqua;
+border-radius: 25px;
+cursor: pointer;
+transition: all 0.3s;
+padding: 2px;
+
+}
+
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.welcome-container{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome{
+  font-weight: 7rem;
+  font-size: 5rem;
+  color: yellow;
+  font-family: "Pacifico", cursive;
+  margin-top: -350px;
+}
+
+.cat{
+  position: absolute;
+  top: 80%;
+  left: 33%;
+  width: 150px;
+}
+
+.dog{
+  position: absolute;
+  top: 80%;
+  left: 58%;
+  width: 150px;
+}
+
+.cat2{
+  position: absolute;
+  top: 70%;
+  left: 43%;
+  width: 250px;
+}
+
+.whale{
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  width: 300px;
+}
+
+.login-btn{
+  padding: 25px;
+  background: transparent;
+  border: 3px solid aqua;
+  border-radius: 25px;
+  color: aqua;
+  margin: 10px;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  scale: 0.80;
+}
+
+.login-btn:hover{
+  scale: 1;
+  color: aqua;
+}
+
+.reg-btn{
+  padding: 25px;
+  background: transparent;
+  border: 3px solid yellow;
+  border-radius: 25px;
+  color: yellow;
+  margin: 10px;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  scale: 0.80;
+}
+
+.reg-btn:hover{
+  color: yellow;
+  scale: 1;
+}
+
+.log-container{
+  display: flex;
+  height: 60vh;
+  width: 750px;
+  background: url("./assets/pattern2.png");
+  box-shadow: 3px 3px 5px 3px hsl(208, 100%, 97%,0.4);
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.top-img{
+  width: 350px;
+  float: left;
+  clear: right;
+  margin-left: -250px;
+}
+
+.container{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  gap: 25px;
+  float: right;
+  clear: left;
+  color: aliceblue;
+}
+
+.form-container h1{
+ font-size: 4rem;
+ margin-top: -50px;
+}
+
+.form-container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+  font-size: 1.5rem;
+  font-weight: 1.5rem;
+}
+
+.form-container form input{
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+}
+
+.reg-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:url("./assets/pattern.png");
+  height: 65vh;
+  width: 750px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px 3px hsl(208, 100%, 97%,0.2);
+}
+
+.top-img2{
+  width: 275px;
+  margin-bottom: 25px;
+  margin-top: -75px;
+  margin-left: -550px;
+}
+
+.reg-submit{
+  padding: 15px 65px;
+  border-radius: 15px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 15px;
+  box-shadow: 2px 2px 3px 2px hsl(0, 0%, 0%,0.3);
+  transition: all 0.s;
+  background-color: #00224D;
+  color: aliceblue;
+}
+
+.reg-submit:hover{
+  box-shadow: 3px 3px 5px 3px hsl(0, 0%, 0%,0.3);
+  background-color: gainsboro;
+  color: black;
+  transition: all 0.s;
+}
+
+.box{
+  color: #00224D;
+  background-color: white;
+  padding: 50px;
+  margin-right:-75px ;
+  border-radius: 25px;
+}
+
+.log-input{
+  background: gray;
+  border: 2px solid white;
+  color: white;
+  font-size: 0.80rem;
+  outline: none;
+  box-shadow: 2px 2px 3px 2px hsl(0, 0%, 0%,0.3);
+}
+
+.submit2{
+  padding: 15px 70px;
+  margin-top: 15px;
+  border-radius: 25px;
+  border: 2px solid #00224D;
+  font-size: 1rem;
+}
+
+.submit2:hover{
+  box-shadow: 2px 2px 3px 2px  hsl(0, 0%, 0%,0.4);
+  background-color: #00224D;
+  color: aliceblue;
+}
+
+.reg-form{
+  margin-top: -125px;
+  background-color: black;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px 3px hsl(0, 0%, 100%,0.2);
+}
+
+.layer{
+  width: 400px;
+  background: gray;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.intro-dog{
+   width: 400px;
+   border-radius: 50px;
+   transform: translateX(45px);
+   margin: 15px;
+   transition: all linear .3s ;
+   box-shadow: 3px 3px 5px 3px hsl(0, 0%, 0%,0.5);
+}
+
+.intro-dog:hover{
+  transform: translateX(0px);
+   margin: 0%;
+   transition: all linear .3s ;
+}
+
+.big-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.intro-cat{
+  width: 250px;
+   border-radius: 50px;
+   transform: translatey(45px);
+   margin: 15px;
+   transition: all linear .3s ;
+   box-shadow: 3px 3px 5px 3px hsl(0, 0%, 0%,0.5);
+}
+
+.intro-cat:hover{
+  transform: translatey(0px);
+   margin: 0%;
+   transition: all linear .3s ;
+}
+
+.layer2{
+  width: 250px;
+  background: gray;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.sub-container{
+  display: flex;
+  gap:200px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -75px;
+  margin-top: -100px;
+}
+
+.dogs-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 2fr 2fr;
+  grid-gap: 20px;
+  height: 80vh;
+  margin: 100px 50px 50px 50px;
+}
+
+.dogs-container > div{
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  transition: all  linear 0.3s;
+}
+
+.dogs-container > div:hover{
+  box-shadow: 3px 3px 5px 3px hsl(39, 77%, 83%,0.4);
+  transition: all  linear 0.3s;
+}
+
+.dog-img{
+  width: 167.5px;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: 2px 2px 3px 2px hsl(0, 0%, 0%,0.4);
+}
+
+.dog-name{
+  font-size: 2rem;
+  color: black;
+  display: inline-block;
+  font-family: "Pacifico", cursive;
+  margin: 15px 0px;
+}
+
+.dog-desc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 15px;
+  margin-top: -50px;
+}
+
+.dog-desc > p{
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 2rem;
+}
+
+.welcome_user{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: 400px;
+}
+
+strong{
+  color: white;
+}
+
+.book-container{
+ margin-top: 75px;
+  text-align: center;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+background-image: url("https://images.unsplash.com/photo-1718582896304-4d147f0a364e?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0MjkxNTh8&ixlib=rb-4.0.3&q=85");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  outline: 1px solid #FFFFFF70;
+  outline-offset: 4px;
+}
+
+.big-book-container{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.pet-img > div{
+  width: 100px;
+  margin-top: 2.25rem;
+  border-radius: 50%;
+  width: 140px;
+  aspect-ratio: 1;
+  margin-inline: auto;
+outline: 1px solid #0C4A6E;
+  outline-offset: 2px;
+  background: #00224D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico", cursive;
+}
+
+.pet-img > div > h1{
+  font-size: 2.5rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 1.2rem;
+  color: aliceblue;
+}
+
+.pet-img{
+  background: aliceblue;
+  width: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+main{
+  margin-top: 150px;
+  flex: 1;
+  background: white;
+/* this is really the only relevant part of this demo */
+  clip-path: path("M 0 100 c 150 0 120 -75 200 -75 C 280 25 250 100 400 100 L400 1000 0 1000 Z")
+}
+
+main > form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 25px;
+}
+
+main > form > input{
+  outline: 1px solid #0C4A6E;
+  outline-offset: 2px;
+  margin: 5px;
+  width: 175px;
+}
+
+textarea{
+  width: 175px;
+  outline: 1px solid #0C4A6E;
+  outline-offset: 2px;
+}
+
+.book{
+  width: 175px;
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  padding: 7.5px;
+  background: #00224D;
+  color: aliceblue;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px 3px 2px hsl(0, 0%, 0%,0.2);
+}
+
+.card-btn{
+   margin-top: 15px;
+   padding: 5px;
+   width: 100px;
+   outline: 2px double #00224D;
+   outline-offset: 2px;
+   background: hsl(208, 100%, 97%,0.4);
+   border: none;
+   transition: all linear 0.3s;
+   font-size: 1rem;
+}
+
+.card-btn:hover{
+  background: #00224D;
+  color: aliceblue;
+  transition: all linear 0.3s;
+}
+
+.end-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.thanks h1, .thanks h2, .thanks h4, .thanks p {
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.maj {
+  text-transform: capitalize;
+}
+
+.thanks h1 {
+  font-size: 24px;
+  color: #4CAF50;
+}
+
+.thanks h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.thanks h4 {
+  font-size: 16px;
+  color: #555;
+}
+
+.book-dtl {
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.book-dtl h2 {
+  font-size: 18px;
+  color: #333;
+}
+
+.book-dtl p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.regards {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.regards h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.regards p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.link{
+  width: 40px;
+  margin: 5px;
+}
